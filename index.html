@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aiman Ex 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-3">
+        <a href="#" class="navbar-brand">Space Xplore</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a href="" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">Space</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div id="carousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active" style="height: 400px;">
+                <img src="Images/space_mountain.jpg" alt="mountain sky view" class="d-block h-100 w-100"
+                    style="object-fit: cover; object-position: 100% 70%;">
+            </div>
+            <div class="carousel-item" style="height: 400px;">
+                <img src="Images/blackhole.jpg" alt="black hole" class="d-block h-100 w-100" style="object-fit: cover;">
+            </div>
+            <div class="carousel-item" style="height: 400px;">
+                <img src="Images/earth.jpg" alt="earth from space view" class="d-block h-100 w-100"
+                    style="object-fit: cover; object-position: 100% 0%;">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#carousel" data-bs-slide-to="2"></button>
+        </div>
+    </div>
+
+    <div class="container-fluid mt-5 mb-5">
+        <div class="container w-75 justify-content-center d-flex">
+            <div class="row row-cols-sm-1 row-cols-md-2 rows-cols-lg-3 g-4">
+                <div class="col d-flex justify-content-center">
+                    <div class="card bg-dark text-light" style="width: 22rem;">
+                        <img src="Images/aurora.jpg" alt="northern lights" class="card-img-top"
+                            style="height: 300px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Aurora Borealis</h5>
+                            <p class="card-text">Dancing lights in the polar night, Aurora waltzes, painting the sky
+                                with a cosmic delight!</p>
+                            <a href="" class="btn btn-info">Learn more</a>
+                        </div>
+                        <div class="card-footer">
+                            Image from pexels.com
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <div class="card bg-dark text-light" style="width: 22rem;">
+                        <img src="Images/space_forest.jpg" alt="northern lights" class="card-img-top"
+                            style="height: 300px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Stars in the Night sky</h5>
+                            <p class="card-text">Twinkling stars play celestial hide-and-seek, painting the night with a
+                                cosmic kaleidoscope of whimsical delight!</p>
+                            <a href="" class="btn btn-info">Learn more</a>
+                        </div>
+                        <div class="card-footer">
+                            Image from pexels.com
+                        </div>
+                    </div>
+                </div>
+                <div class="col d-flex justify-content-center">
+                    <div class="card bg-dark text-light" style="width: 22rem;">
+                        <img src="Images/space_rocket.jpg" alt="northern lights" class="card-img-top"
+                            style="height: 300px; object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Spcae Rocket Blast</h5>
+                            <p class="card-text">Blast off to cosmic adventures, rocket laughter echoing in the sky,
+                                where dreams soar on stardust</p>
+                            <a href="" class="btn btn-info">Learn more</a>
+                        </div>
+                        <div class="card-footer">
+                            Image from pexels.com
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
